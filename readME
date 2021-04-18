@@ -1,0 +1,30 @@
+Design Pattern:
+-Single tone pe CasaLicitiatie
+-Factory pentru produse si clienti
+-Broker pattern clasa broker
+-Builder pentru clasele mobila,tablou,bijuterie si persoana fizica/juridica
+
+
+
+
+Programul citeste un fisier "test.in" in care sunt declarati clientii,produsele,
+brokerii si numarul de licitatii pe care trebuie sa le parcurga.
+Modelarea activitatii clientilor a fost implementata folosind valori generate random,astfel
+la fiecare rulare un nou comportament este generat (clientii liciteaza pentru alte
+produse, au o suma maxima pe care o pot da diferita etc) ----- am preferat aceasta
+implementare deoarece permite generarea testelor mai rapid, face comportamentul
+clientilor mai putin previzibil, astfel facilitand gasirea si rezolvarea bug-urilor
+(daca testele ar fi fost facute de mana ar fi fost mai greu sa creezi un bug:
+ai fi dat doar valori de care ai fi usor sigur ca e bine)
+Testele din testOutput sunt generate ruland acelasi test.in si modificand numarul 
+de licitatii.
+
+
+Implementarea prelucrarii inputului se face folosind o consola interactiva:
+
+-in aceasta consola exista mai multe comenzi:
+	-comanda de creare a unui nou client
+	-comanda de creare a unui nou broker
+	-comanda de creare a unui nou produs
+	-comanda de start a unui nr de licitatii (care incheie consola virtuala si
+	efectueaza licitatiile

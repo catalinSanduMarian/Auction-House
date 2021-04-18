@@ -1,0 +1,168 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ campurile casei inainte de licitatii @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@inceput lista clienti@@@@@@@@@@@
+id=1 nume=Ion1 adresa=strada_oarecare_nr1 numarParticipari=12 nr_licitatii_castigate=1suma max lic=0.0
+id=2 nume=Ion2 adresa=strada_oarecare_nr2 numarParticipari=11 nr_licitatii_castigate=2suma max lic=0.0
+id=3 nume=Ion3 adresa=strada_oarecare_nr3 numarParticipari=10 nr_licitatii_castigate=3suma max lic=0.0
+id=4 nume=Ion4 adresa=strada_oarecare_nr4 numarParticipari=9 nr_licitatii_castigate=4suma max lic=0.0
+id=5 nume=Ion5 adresa=strada_oarecare_nr5 numarParticipari=8 nr_licitatii_castigate=5suma max lic=0.0
+id=6 nume=Ion6 adresa=strada_oarecare_nr6 numarParticipari=7 nr_licitatii_castigate=6suma max lic=0.0
+@@@@@@@@@@@@@@inceput lista produse@@@@@@@@@@
+id=1 nume=numeT1 pret_vanzare=0.0 pret_minim=12.2
+id=2 nume=numeT2 pret_vanzare=0.0 pret_minim=11.2
+id=3 nume=numeT3 pret_vanzare=0.0 pret_minim=15.0
+id=4 nume=numeT4 pret_vanzare=0.0 pret_minim=14.1
+id=5 nume=numeT5 pret_vanzare=0.0 pret_minim=13.2
+id=6 nume=numeT6 pret_vanzare=0.0 pret_minim=23.1
+id=7 nume=numeM1 pret_vanzare=0.0 pret_minim=12.5
+id=8 nume=numeM2 pret_vanzare=0.0 pret_minim=13.5
+id=9 nume=numeM3 pret_vanzare=0.0 pret_minim=14.5
+id=10 nume=numeM4 pret_vanzare=0.0 pret_minim=16.5
+id=11 nume=numeM5 pret_vanzare=0.0 pret_minim=11.2
+id=12 nume=numeM6 pret_vanzare=0.0 pret_minim=13.2
+id=13 nume=numeM7 pret_vanzare=0.0 pret_minim=11.1
+id=14 nume=numeB1 pret_vanzare=0.0 pret_minim=11.5
+id=15 nume=numeB2 pret_vanzare=0.0 pret_minim=15.5
+id=16 nume=numeB3 pret_vanzare=0.0 pret_minim=11.5
+id=17 nume=numeB4 pret_vanzare=0.0 pret_minim=13.5
+id=18 nume=numeB5 pret_vanzare=0.0 pret_minim=12.1
+id=19 nume=numeB6 pret_vanzare=0.0 pret_minim=10.5
+id=20 nume=numeB7 pret_vanzare=0.0 pret_minim=18.5
+@@@@@@@@@@@@@@inceput lista licitatii active@@@@@@@@@@@@@
+id=1 nrPart=3 id proodus=1 nrpasi=5 Clientiactual=0
+id=2 nrPart=3 id proodus=2 nrpasi=5 Clientiactual=0
+id=3 nrPart=3 id proodus=3 nrpasi=5 Clientiactual=0
+id=4 nrPart=3 id proodus=4 nrpasi=5 Clientiactual=0
+id=5 nrPart=3 id proodus=5 nrpasi=5 Clientiactual=0
+id=6 nrPart=3 id proodus=6 nrpasi=5 Clientiactual=0
+id=7 nrPart=3 id proodus=7 nrpasi=5 Clientiactual=0
+id=8 nrPart=3 id proodus=8 nrpasi=5 Clientiactual=0
+id=9 nrPart=3 id proodus=9 nrpasi=5 Clientiactual=0
+id=10 nrPart=3 id proodus=10 nrpasi=5 Clientiactual=0
+id=11 nrPart=3 id proodus=11 nrpasi=5 Clientiactual=0
+id=12 nrPart=3 id proodus=12 nrpasi=5 Clientiactual=0
+id=13 nrPart=3 id proodus=13 nrpasi=5 Clientiactual=0
+id=14 nrPart=3 id proodus=14 nrpasi=5 Clientiactual=0
+id=15 nrPart=3 id proodus=15 nrpasi=5 Clientiactual=0
+id=16 nrPart=3 id proodus=16 nrpasi=5 Clientiactual=0
+id=17 nrPart=3 id proodus=17 nrpasi=5 Clientiactual=0
+id=18 nrPart=3 id proodus=18 nrpasi=5 Clientiactual=0
+id=19 nrPart=3 id proodus=19 nrpasi=5 Clientiactual=0
+id=20 nrPart=3 id proodus=20 nrpasi=5 Clientiactual=0
+nr clienti=6 nr produse=20
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ campurile casei dupa ce licitatiile au fost intializate @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@inceput lista clienti@@@@@@@@@@@
+id=1 nume=Ion1 adresa=strada_oarecare_nr1 numarParticipari=12 nr_licitatii_castigate=1suma max lic=0.0
+id=2 nume=Ion2 adresa=strada_oarecare_nr2 numarParticipari=11 nr_licitatii_castigate=2suma max lic=0.0
+id=3 nume=Ion3 adresa=strada_oarecare_nr3 numarParticipari=10 nr_licitatii_castigate=3suma max lic=0.0
+id=4 nume=Ion4 adresa=strada_oarecare_nr4 numarParticipari=9 nr_licitatii_castigate=4suma max lic=0.0
+id=5 nume=Ion5 adresa=strada_oarecare_nr5 numarParticipari=8 nr_licitatii_castigate=5suma max lic=0.0
+id=6 nume=Ion6 adresa=strada_oarecare_nr6 numarParticipari=7 nr_licitatii_castigate=6suma max lic=0.0
+@@@@@@@@@@@@@@inceput lista produse@@@@@@@@@@
+id=1 nume=numeT1 pret_vanzare=0.0 pret_minim=12.2
+id=2 nume=numeT2 pret_vanzare=0.0 pret_minim=11.2
+id=3 nume=numeT3 pret_vanzare=0.0 pret_minim=15.0
+id=4 nume=numeT4 pret_vanzare=0.0 pret_minim=14.1
+id=5 nume=numeT5 pret_vanzare=0.0 pret_minim=13.2
+id=6 nume=numeT6 pret_vanzare=0.0 pret_minim=23.1
+id=7 nume=numeM1 pret_vanzare=0.0 pret_minim=12.5
+id=8 nume=numeM2 pret_vanzare=0.0 pret_minim=13.5
+id=9 nume=numeM3 pret_vanzare=0.0 pret_minim=14.5
+id=10 nume=numeM4 pret_vanzare=0.0 pret_minim=16.5
+id=11 nume=numeM5 pret_vanzare=0.0 pret_minim=11.2
+id=12 nume=numeM6 pret_vanzare=0.0 pret_minim=13.2
+id=13 nume=numeM7 pret_vanzare=0.0 pret_minim=11.1
+id=14 nume=numeB1 pret_vanzare=0.0 pret_minim=11.5
+id=15 nume=numeB2 pret_vanzare=0.0 pret_minim=15.5
+id=16 nume=numeB3 pret_vanzare=0.0 pret_minim=11.5
+id=17 nume=numeB4 pret_vanzare=0.0 pret_minim=13.5
+id=18 nume=numeB5 pret_vanzare=0.0 pret_minim=12.1
+id=19 nume=numeB6 pret_vanzare=0.0 pret_minim=10.5
+id=20 nume=numeB7 pret_vanzare=0.0 pret_minim=18.5
+@@@@@@@@@@@@@@inceput lista licitatii active@@@@@@@@@@@@@
+id=3 nrPart=3 id proodus=3 nrpasi=5 Clientiactual=3
+id=6 nume=Ion6 adresa=strada_oarecare_nr6 numarParticipari=7 nr_licitatii_castigate=6suma max lic=0.0
+id=1 nume=Ion1 adresa=strada_oarecare_nr1 numarParticipari=12 nr_licitatii_castigate=1suma max lic=0.0
+id=2 nume=Ion2 adresa=strada_oarecare_nr2 numarParticipari=11 nr_licitatii_castigate=2suma max lic=0.0
+id=5 nrPart=3 id proodus=5 nrpasi=5 Clientiactual=3
+id=5 nume=Ion5 adresa=strada_oarecare_nr5 numarParticipari=8 nr_licitatii_castigate=5suma max lic=0.0
+id=4 nume=Ion4 adresa=strada_oarecare_nr4 numarParticipari=9 nr_licitatii_castigate=4suma max lic=0.0
+id=1 nume=Ion1 adresa=strada_oarecare_nr1 numarParticipari=12 nr_licitatii_castigate=1suma max lic=0.0
+id=20 nrPart=3 id proodus=20 nrpasi=5 Clientiactual=3
+id=2 nume=Ion2 adresa=strada_oarecare_nr2 numarParticipari=11 nr_licitatii_castigate=2suma max lic=0.0
+id=3 nume=Ion3 adresa=strada_oarecare_nr3 numarParticipari=10 nr_licitatii_castigate=3suma max lic=0.0
+id=6 nume=Ion6 adresa=strada_oarecare_nr6 numarParticipari=7 nr_licitatii_castigate=6suma max lic=0.0
+id=15 nrPart=3 id proodus=15 nrpasi=5 Clientiactual=3
+id=1 nume=Ion1 adresa=strada_oarecare_nr1 numarParticipari=12 nr_licitatii_castigate=1suma max lic=0.0
+id=2 nume=Ion2 adresa=strada_oarecare_nr2 numarParticipari=11 nr_licitatii_castigate=2suma max lic=0.0
+id=4 nume=Ion4 adresa=strada_oarecare_nr4 numarParticipari=9 nr_licitatii_castigate=4suma max lic=0.0
+VANDUTTTTT!!!!
+id=1 nume=Ion1 adresa=strada_oarecare_nr1 numarParticipari=12 nr_licitatii_castigate=1suma max lic=91.898075824182
+VANDUTTTTT!!!!
+id=1 nume=Ion1 adresa=strada_oarecare_nr1 numarParticipari=12 nr_licitatii_castigate=1suma max lic=84.5298704709625
+VANDUTTTTT!!!!
+id=6 nume=Ion6 adresa=strada_oarecare_nr6 numarParticipari=7 nr_licitatii_castigate=6suma max lic=98.20775001723507
+VANDUTTTTT!!!!
+id=4 nume=Ion4 adresa=strada_oarecare_nr4 numarParticipari=9 nr_licitatii_castigate=4suma max lic=84.87396511877154
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ campurile casei dupa terminarea licitatiilor @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@inceput lista clienti@@@@@@@@@@@
+id=1 nume=Ion1 adresa=strada_oarecare_nr1 numarParticipari=12 nr_licitatii_castigate=1suma max lic=52.019890205819074
+id=2 nume=Ion2 adresa=strada_oarecare_nr2 numarParticipari=11 nr_licitatii_castigate=2suma max lic=55.48153418803811
+id=3 nume=Ion3 adresa=strada_oarecare_nr3 numarParticipari=10 nr_licitatii_castigate=3suma max lic=64.73189770124173
+id=4 nume=Ion4 adresa=strada_oarecare_nr4 numarParticipari=9 nr_licitatii_castigate=4suma max lic=84.87396511877154
+id=5 nume=Ion5 adresa=strada_oarecare_nr5 numarParticipari=8 nr_licitatii_castigate=5suma max lic=53.422587862060396
+id=6 nume=Ion6 adresa=strada_oarecare_nr6 numarParticipari=7 nr_licitatii_castigate=6suma max lic=98.20775001723507
+@@@@@@@@@@@@@@inceput lista produse@@@@@@@@@@
+id=1 nume=numeT1 pret_vanzare=0.0 pret_minim=12.2
+id=2 nume=numeT2 pret_vanzare=0.0 pret_minim=11.2
+id=4 nume=numeT4 pret_vanzare=0.0 pret_minim=14.1
+id=6 nume=numeT6 pret_vanzare=0.0 pret_minim=23.1
+id=7 nume=numeM1 pret_vanzare=0.0 pret_minim=12.5
+id=8 nume=numeM2 pret_vanzare=0.0 pret_minim=13.5
+id=9 nume=numeM3 pret_vanzare=0.0 pret_minim=14.5
+id=10 nume=numeM4 pret_vanzare=0.0 pret_minim=16.5
+id=11 nume=numeM5 pret_vanzare=0.0 pret_minim=11.2
+id=12 nume=numeM6 pret_vanzare=0.0 pret_minim=13.2
+id=13 nume=numeM7 pret_vanzare=0.0 pret_minim=11.1
+id=14 nume=numeB1 pret_vanzare=0.0 pret_minim=11.5
+id=16 nume=numeB3 pret_vanzare=0.0 pret_minim=11.5
+id=17 nume=numeB4 pret_vanzare=0.0 pret_minim=13.5
+id=18 nume=numeB5 pret_vanzare=0.0 pret_minim=12.1
+id=19 nume=numeB6 pret_vanzare=0.0 pret_minim=10.5
+@@@@@@@@@@@@@@inceput lista licitatii active@@@@@@@@@@@@@
+id=3 nrPart=3 id proodus=3 nrpasi=5 Clientiactual=3
+id=6 nume=Ion6 adresa=strada_oarecare_nr6 numarParticipari=7 nr_licitatii_castigate=6suma max lic=98.20775001723507
+id=1 nume=Ion1 adresa=strada_oarecare_nr1 numarParticipari=12 nr_licitatii_castigate=1suma max lic=52.019890205819074
+id=2 nume=Ion2 adresa=strada_oarecare_nr2 numarParticipari=11 nr_licitatii_castigate=2suma max lic=55.48153418803811
+broker Castigator este:
+numeBroaker=broker1
+id=5 nrPart=3 id proodus=5 nrpasi=5 Clientiactual=3
+id=5 nume=Ion5 adresa=strada_oarecare_nr5 numarParticipari=8 nr_licitatii_castigate=5suma max lic=53.422587862060396
+id=4 nume=Ion4 adresa=strada_oarecare_nr4 numarParticipari=9 nr_licitatii_castigate=4suma max lic=84.87396511877154
+id=1 nume=Ion1 adresa=strada_oarecare_nr1 numarParticipari=12 nr_licitatii_castigate=1suma max lic=52.019890205819074
+broker Castigator este:
+numeBroaker=broker2
+id=20 nrPart=3 id proodus=20 nrpasi=5 Clientiactual=3
+id=2 nume=Ion2 adresa=strada_oarecare_nr2 numarParticipari=11 nr_licitatii_castigate=2suma max lic=55.48153418803811
+id=3 nume=Ion3 adresa=strada_oarecare_nr3 numarParticipari=10 nr_licitatii_castigate=3suma max lic=64.73189770124173
+id=6 nume=Ion6 adresa=strada_oarecare_nr6 numarParticipari=7 nr_licitatii_castigate=6suma max lic=98.20775001723507
+broker Castigator este:
+numeBroaker=broker1
+id=15 nrPart=3 id proodus=15 nrpasi=5 Clientiactual=3
+id=1 nume=Ion1 adresa=strada_oarecare_nr1 numarParticipari=12 nr_licitatii_castigate=1suma max lic=52.019890205819074
+id=2 nume=Ion2 adresa=strada_oarecare_nr2 numarParticipari=11 nr_licitatii_castigate=2suma max lic=55.48153418803811
+id=4 nume=Ion4 adresa=strada_oarecare_nr4 numarParticipari=9 nr_licitatii_castigate=4suma max lic=84.87396511877154
+broker Castigator este:
+numeBroaker=broker2
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ registrul @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@printare elem registru
+pretVanzare=90.73642349015189 venit=77.12595996662911 produsul este:
+id=3 nume=numeT3 pret_vanzare=90.73642349015189 pret_minim=15.0
+@@@@@printare elem registru
+pretVanzare=82.51067618537886 venit=70.13407475757202 produsul este:
+id=5 nume=numeT5 pret_vanzare=82.51067618537886 pret_minim=13.2
+@@@@@printare elem registru
+pretVanzare=91.52414070347466 venit=68.643105527606 produsul este:
+id=20 nume=numeB7 pret_vanzare=91.52414070347466 pret_minim=18.5
+@@@@@printare elem registru
+pretVanzare=84.58229816706569 venit=63.436723625299265 produsul este:
+id=15 nume=numeB2 pret_vanzare=84.58229816706569 pret_minim=15.5

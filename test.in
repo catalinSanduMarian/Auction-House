@@ -1,0 +1,29 @@
+Client Ion1 strada_oarecare_nr1 12 1 F 29-01-2000
+Client Ion2 strada_oarecare_nr2 11 2 F 22-01-2000
+Client Ion3 strada_oarecare_nr3 10 3 F 21-01-2000
+Client Ion4 strada_oarecare_nr4 9 4 J 12.15
+Client Ion5 strada_oarecare_nr5 8 5 J 4.23
+Client Ion6 strada_oarecare_nr6 7 6 J 5.12
+Broker broker1
+Broker broker2
+Produs tablou numeT1 12.2 pictorT1
+Produs tablou numeT2 11.2 pictorT2
+Produs tablou numeT3 15 pictorT3
+Produs tablou numeT4 14.1 pictorT4
+Produs tablou numeT5 13.2 pictorT5
+Produs tablou numeT6 23.1 pictorT6
+Produs mobila numeM1 12.5 tip7 mat1
+Produs mobila numeM2 13.5 tip6 mat2
+Produs mobila numeM3 14.5 tip5 mat3
+Produs mobila numeM4 16.5 tip4 mat4
+Produs mobila numeM5 11.2 tip3 mat5
+Produs mobila numeM6 13.2 tip2 mat6
+Produs mobila numeM7 11.1 tip1 mat7
+Produs bijuterie numeB1 11.5 material1 cevaGresit
+Produs bijuterie numeB2 15.5 material2 false
+Produs bijuterie numeB3 11.5 material3 true
+Produs bijuterie numeB4 13.5 material4 true
+Produs bijuterie numeB5 12.1 material5 false
+Produs bijuterie numeB6 10.5 material6 true
+Produs bijuterie numeB7 18.5 material7 false
+Start 4
