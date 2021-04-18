@@ -1,5 +1,9 @@
+Enuntul temei:
+https://docs.google.com/document/d/1UeSLR4ek_EZJrL3AhSc1RheNbZR-yoSyOOdvtkoMMRI/edit
+
+
 Design Pattern:
--Single tone pe CasaLicitiatie
+-Singletone pe CasaLicitiatie
 -Factory pentru produse si clienti
 -Broker pattern clasa broker
 -Builder pentru clasele mobila,tablou,bijuterie si persoana fizica/juridica
