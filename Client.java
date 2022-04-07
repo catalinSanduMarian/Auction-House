@@ -1,98 +1,103 @@
 import java.util.concurrent.ThreadLocalRandom;
 
 
-
 public class Client {
 
-	private int id;
-	private String nume;
-	private String adresa;
-	private int numarParticipari;
-	private int nr_licitatii_castigate;
-	private double pretMaximOferit =0;
+    private int id;
+    private String nume;
+    private String adresa;
+    private int numarParticipari;
+    private int nr_licitatii_castigate;
+    private double pretMaximOferit = 0;
+    private double capital;
 
-	void setPretMaxim(double pret)
-	{
-		pretMaximOferit = pret;
-	}
+    public Client() {
+        id = 0;
+        nume = "gol";
+        adresa = "gol";
+        numarParticipari = 0;
+        nr_licitatii_castigate = 0;
+    }
 
-	public Client()
-	{
-		id =  0;
-		nume = "gol";
-		adresa = "gol";
-		numarParticipari = 0;
-		nr_licitatii_castigate = 0; 	
-	}
+    public double getCapital() {
+        return capital;
+    }
 
-	void setId(int idC)
-	{
-		id =  idC;
-	}
-	void setNume (String numeC)
-	{
-		nume = numeC;
-	}
+    public void setCapital(double capital) {
+        this.capital = capital;
+    }
 
-	void setAdresa(String adresaC)
-	{
-		adresa = adresaC;
-	}
-	void setParticipari(int numarParticipariC)
-	{
-		numarParticipari = numarParticipariC;
-	}
-	void setWins(int nr_licitatii_castigateC)
-	{
-		nr_licitatii_castigate = nr_licitatii_castigateC;
-	}
+    public String getAdresa() {
+        return adresa;
+    }
 
+    void setAdresa(String adresaC) {
+        adresa = adresaC;
+    }
 
-	void printTOT()
-	{
-		System.out.println("id="+id+" nume="+nume+" adresa="+adresa+ " numarParticipari="+numarParticipari+
-			" nr_licitatii_castigate="+nr_licitatii_castigate +"suma max lic="+pretMaximOferit);
+    public int getNr_licitatii_castigate() {
+        return nr_licitatii_castigate;
+    }
 
-	}
+    public void setNr_licitatii_castigate(int nr_licitatii_castigate) {
+        this.nr_licitatii_castigate = nr_licitatii_castigate;
+    }
 
+    public String getNume() {
+        return nume;
+    }
 
+    void setNume(String numeC) {
+        nume = numeC;
+    }
 
-	public void aCastigat()
-	{
-		nr_licitatii_castigate = nr_licitatii_castigate +1;
-	}
+    public int getId() {
+        return id;
+    }
 
-	public void aParticipat()
-	{
-		numarParticipari = numarParticipari+1;
-	}
+    void setId(int idC) {
+        id = idC;
+    }
 
+    void setPretMaxim(double pret) {
+        pretMaximOferit = pret;
+    }
 
-	public int getParticpari()
-	{
-		return numarParticipari;
-	}
+    void setWins(int nr_licitatii_castigate) {
+        this.nr_licitatii_castigate = nr_licitatii_castigate;
+    }
 
-	public int getWins()
-	{
-		return nr_licitatii_castigate;
-	}
-	public int getIdC()
-	{
-		return id;
-	}
+    int getNumarParticipari() {
+        return this.numarParticipari;
+    }
 
-	public double liciteaza(double minim)
-	{
-		if (minim > pretMaximOferit)
-		{
-			return pretMaximOferit;
-		}
-		double randomDouble = ThreadLocalRandom.current().nextDouble(minim, pretMaximOferit);
-		return randomDouble;
-	}
+    void setNumarParticipari(int numarParticipari) {
+        this.numarParticipari = numarParticipari;
+    }
+
+    void printTOT() {
+        System.out.println("id=" + id + " nume=" + nume + " adresa=" + adresa + " numarParticipari=" + numarParticipari +
+                " nr_licitatii_castigate=" + nr_licitatii_castigate + "suma max lic=" + pretMaximOferit);
+
+    }
 
 
+    public void aCastigat() {
+        nr_licitatii_castigate = nr_licitatii_castigate + 1;
+    }
+
+
+    public int getIdC() {
+        return id;
+    }
+
+    public double liciteaza(double minim) {
+        if (minim > pretMaximOferit) {
+            return pretMaximOferit;
+        }
+        return ThreadLocalRandom.current().nextDouble(minim, pretMaximOferit);
+
+    }
 
 
 }

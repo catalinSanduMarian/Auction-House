@@ -1,25 +1,19 @@
-public class BrokerBuilder{
+public class BrokerBuilder {
 
+    public final Broker broker = new Broker();
 
+    public BrokerBuilder withNume(String nume) {
+        broker.setBrokerName(nume);
+        return this;
+    }
 
-	public final  Broker broker = new Broker();
+    public BrokerBuilder withClienti() {
+        broker.newClienti();
+        return this;
+    }
 
-	public BrokerBuilder withNume (String nume)
-	{
-		broker.setBnume(nume);
-		return this;
-	}
-
-
-	public BrokerBuilder withClienti ()
-	{
-		broker.newClienti();
-		return this;
-	}
-
-	public Broker build()
-	{
-		return broker;
-	}
+    public Broker build() {
+        return broker;
+    }
 
 }

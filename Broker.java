@@ -1,90 +1,65 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 //implements Vizualizare, Adaugare	
 
-public class Broker extends Angajat implements Stergere{
+public class Broker extends Angajat implements StergereDeProduse {
 
-	private String numeB;
-	private List<Client> listaClienti;
-	private Client clientCastigator= null;
-
-	@Override
-	public void StergereProduse(List<Produs> listaProduse, Produs produs)
-	{
-		listaProduse.remove(produs);
-
-	}
+    private String BrokerName;
+    private List<Client> listaClienti;
+    private Client clientCastigator = null;
 
 
-	void newClienti()
-	{
-		listaClienti =  new ArrayList<Client>();
-	}
+    @Override
+    public void StergereProduse(List<Produs> listaProduse, Produs produs) {
+        listaProduse.remove(produs);
+    }
 
-	void adaugaClient (Client client)
-	{
-		listaClienti.add(client);
-	}
+    void newClienti() {
+        listaClienti = new ArrayList<>();
+    }
 
-	List<Client> getClienti()
-	{
-		return listaClienti;
-	}
+    void adaugaClient(Client client) {
+        listaClienti.add(client);
+    }
 
-	public void setBnume(String nume)
-	{
-		numeB = nume;
-	}
+    public void setBrokerName(String nume) {
+        BrokerName = nume;
+    }
 
-	public void newClientCastigator()
-	{
-		clientCastigator = null;
-	}
+    public void resetListe() {
+        clientCastigator = null;
+        listaClienti = new ArrayList<>();
+    }
 
-	public void resetListe()
-	{
-		clientCastigator = null;
-		listaClienti =  new ArrayList<Client>();
-	}
+    public Client GetClientCastigator() {
+        return clientCastigator;
+    }
 
-	public Client GetClientCastigator()
-	{
-		return clientCastigator;
-	}
+    public void printBroker() {
+        System.out.println("numeBroker=" + BrokerName);
+        for (Client element : listaClienti) {
+            element.printTOT();
+        }
+        if (clientCastigator != null) {
+            System.out.println("CLIENT CASTIGATOR");
+            clientCastigator.printTOT();
+        }
 
-	public void printBroker()
-	{
-		System.out.println("numeBroaker=" +numeB);
-	    for (Client element : listaClienti)
-	    {
-	    	element.printTOT();
-	    }
-	    if (clientCastigator != null)
-	    {
-	    	System.out.println("CLIENT CASTIGATOR");
-	    	clientCastigator.printTOT();
-	    }
+    }
 
-	}
-	/* brokerul ia suma licitata a fiecarui 
-	client pe care ii reprezinta si face maximul
-	transmite maximul mai departe, retinand clientul
-	care a licitat cel mai mult*/
-	public double reprezentareClienti(double minim)
-	{
-		double maxim=minim;
+    public double reprezentareClienti(double minim) {
+        double maxim = minim;
 
-		for (Client client : listaClienti)
-		{
-			double pret = client.liciteaza(minim);
-			if (maxim < pret)
-			{
-				maxim =pret;
-				clientCastigator = client;
-			}
-		}
+        for (Client client : listaClienti) {
+            double pret = client.liciteaza(minim);
+            if (maxim < pret) {
+                maxim = pret;
+                clientCastigator = client;
+            }
+        }
 
-		return maxim;
-	}
+        return maxim;
+    }
 
 
 }

@@ -1,46 +1,39 @@
 public class BijuterieBuilder {
 
-	public final  Bijuterie bijut = new Bijuterie();
+    public final Bijuterie jewelry = new Bijuterie();
 
-	public BijuterieBuilder withId (int id)
-	{
-		bijut.setPid(id);
-		return this;
-	}
+    public BijuterieBuilder withId(int id) {
+        jewelry.setPid(id);
+        return this;
+    }
 
+    public BijuterieBuilder withNume(String nume) {
+        jewelry.setPnume(nume);
+        return this;
+    }
 
-	
+    public BijuterieBuilder withVanzare(double vanzare) {
+        jewelry.setVanzare(vanzare);
+        return this;
+    }
 
+    public BijuterieBuilder withMinim(double minim) {
+        jewelry.setMinim(minim);
+        return this;
+    }
 
-	public BijuterieBuilder withNume (String nume)
-	{
-		bijut.setPnume(nume);
-		return this;
-	}
-	public BijuterieBuilder withVanzare (double vanzare)
-	{
-		bijut.setVanzare(vanzare);
-		return this;
-	}
-	public BijuterieBuilder withMinim (double minim)
-	{
-		bijut.setMinim(minim);
-		return this;
-	}
-	public BijuterieBuilder withMaterial (String material)
-	{
-		bijut.setMaterial(material);
-		return this;
-	}
-	public BijuterieBuilder withPP (Boolean peps)
-	{
-		bijut.setPP(peps);
-		return this;
-	}
+    public BijuterieBuilder withMaterial(String material) {
+        jewelry.setMaterial(material);
+        return this;
+    }
 
-	public Bijuterie build()
-	{
-		return bijut;
-	}
+    public BijuterieBuilder withPP(Boolean peps) {
+        jewelry.setPP(peps);
+        return this;
+    }
+
+    public Bijuterie build() {
+        return jewelry;
+    }
 }
 

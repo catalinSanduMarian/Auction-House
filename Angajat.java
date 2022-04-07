@@ -1,26 +1,43 @@
-import java.util.*;
+import java.util.List;
 
 
-interface Vizualizare{
-	public void VizualizareProduse(List<Produs> listaProduse);
-}
-interface Adaugare{
-	public void AdaugareProduse(List<Produs> listaProduse, Produs produs);
+interface Adaugare {
+    void AdaugareProduse(List<Produs> listaProduse, Produs produs);
 }
 
-interface Stergere{
+interface StergereDeProduse {
 
-	public void StergereProduse(List<Produs> listaProduse, Produs produs);
+    void StergereProduse(List<Produs> listaProduse, Produs produs);
 }
-
 
 
 public class Angajat {
 
-/* aceasta clasa este goala momentan
-am creat clasa, astfel, atunci cand programul se extinde
-exista optiunea adaugarii salariului si altor date(program de lucru etc)
-tuturor angajatilor  */
+    private String nume;
+    private String adresa;
+    private int varsta;
 
+    public void setVarsta(int varsta) {
+        this.varsta = varsta;
+    }
 
+    public void setAdresa(String adresa) {
+        this.adresa = adresa;
+    }
+
+    public void setNume(String nume) {
+        this.nume = nume;
+    }
+
+    public int getVarsta() {
+        return varsta;
+    }
+
+    public String getAdresa() {
+        return adresa;
+    }
+
+    public String getNume() {
+        return nume;
+    }
 }

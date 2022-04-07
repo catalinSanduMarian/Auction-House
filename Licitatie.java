@@ -1,150 +1,124 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class Licitatie {
 
-	private int id;
-	private int numarParticipanti;
-	private int idProdus;
-	private int nrPasiMaxim;
-	private List<Client> clientiParticipanti;
-	private int nrActualClienti;
-	private Broker brokerCastigator = null;
+    private int id;
+    private int numarParticipanti;
+    private int idProdus;
+    private int nrPasiMaxim;
+    private List<Client> clientiParticipanti;
+    private int nrActualClienti;
+    private Broker brokerCastigator = null;
+
+    public void setBrokerCastigator(Broker brokerCastigator) {
+        this.brokerCastigator = brokerCastigator;
+    }
+
+    public int numarAtins() {
+        if (nrActualClienti == numarParticipanti) {
+            return 1;
+        }
+        return 0;
+    }
 
 
-	public int numarAtins()
-	{
-		if (nrActualClienti	== numarParticipanti)
-		{
-			return 1;
-		}
-		return 0;
-	}
-
-	public void setCastigator(Broker castigator)
-	{
-		brokerCastigator = castigator;
-	}
+    public Broker getCastigator() {
+        return brokerCastigator;
+    }
 
 
-	public Broker getCastigator()
-	{
-		return brokerCastigator;	
-	}
+    public void setActual(int actual) {
+        nrActualClienti = actual;
+    }
+
+    public void setNrPArt(int nrPart) {
 
 
-	public void setActual(int actual)
-	{
-		nrActualClienti = actual;
-	}
+        numarParticipanti = nrPart;
+    }
 
-	public void setId (int lid)
-	{
-		id = lid;
-	}
+    public void setMaxim(int maxim) {
 
-	public void setNrPArt(int nrPart){
+        nrPasiMaxim = maxim;
+    }
 
+    public void newParticipanti() {
+        clientiParticipanti = new ArrayList<>();
+    }
 
-		numarParticipanti = nrPart;
-	}
-	public void setPid(int pid){
+    public void printeazaLic() {
+        System.out.println("id=" + id + " nrPart=" + numarParticipanti + " id proodus=" + idProdus
+                + " nrpasi=" + nrPasiMaxim + " Clientiactual=" + nrActualClienti);
 
-		idProdus = pid;
-	}
-	public void setMaxim(int maxim){
+        for (Client element : clientiParticipanti) {
+            element.printTOT();
+        }
+        if (brokerCastigator != null) {
+            System.out.println("broker Castigator este:");
+            brokerCastigator.printBroker();
+        }
 
-		nrPasiMaxim = maxim;
-	}
+    }
 
-	public void newParticipanti()
-	{
-		clientiParticipanti = new ArrayList<Client>();
-	}
+    public List<Client> getClient() {
+        return clientiParticipanti;
+    }
 
-	public void printeazaLic()
-	{
-	    System.out.println("id="+id+ " nrPart="+numarParticipanti + " id proodus="+idProdus
-	    + " nrpasi="+nrPasiMaxim+ " Clientiactual="+nrActualClienti);
-	    
-	    for (Client element : clientiParticipanti)
-	    {
-	    	element.printTOT();
-	    }
-	    if (brokerCastigator != null)
-	    {
-	    	System.out.println("broker Castigator este:");
-	    	brokerCastigator.printBroker();
-	    }
+    public int verificareUnicitate(int idClient) {
+        for (Client element : clientiParticipanti) {
+            int verific = element.getIdC();
+            if (idClient == verific) {
 
-	}
+                return 0;
+            }
+        }
 
+        return 1;
+    }
 
-	public List<Client> getClient()
-	{
-		return clientiParticipanti;
-	}
+    public int getId() {
+        return id;
+    }
 
+    public void setId(int lid) {
+        id = lid;
+    }
 
+    public int getNrPart() {
+        return numarParticipanti;
+    }
 
-	public int verificareUnicitate(int idClient)
-	{
-		for (Client element : clientiParticipanti)
-	    {
-	    	int verific= element.getIdC(); 
-	    	if (idClient == verific)
-	    	{
+    public int getPid() {
+        return idProdus;
+    }
 
-	    		return 0;
-	    	}
-	    }
-	
-	    return 1;
-	}
+    public void setPid(int pid) {
 
-	public int getId ()
-	{
-		return id;
-	}
+        idProdus = pid;
+    }
+
+    public int getPasi() {
+        return nrPasiMaxim;
+    }
 
 
-	public int getNrPart()
-	{
-		return numarParticipanti;
-	}
+    public int adaugareClient(Client client) {
+        if (nrActualClienti == numarParticipanti) {
+            return 0;
+        }
 
-	public int getPid()
-	{
-		return idProdus;
-	}
+        clientiParticipanti.add(client);
+        nrActualClienti = nrActualClienti + 1;
+        return 1;
 
+    }
 
-	public int getPasi()
-	{
-		return nrPasiMaxim;
-	}
-
-
-
-	public int adaugareClient(Client client)
-	{
-		if (nrActualClienti == numarParticipanti)
-		{
-			return 0;
-		}
-
-		clientiParticipanti.add(client);
-		nrActualClienti = nrActualClienti +1;
-		return 1;
-
-	}
-
-	public int CheckId (int id_cautat)
-	{
-		if (idProdus == id_cautat)
-		{
-			return 1;
-		}
-		return 0;
-	}
+    public int CheckId(int id_cautat) {
+        if (idProdus == id_cautat) {
+            return 1;
+        }
+        return 0;
+    }
 }

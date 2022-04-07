@@ -1,17 +1,22 @@
 public class Bijuterie extends Produs {
 
-	private String material;
-	private	Boolean piatraPretioasa;
+    private String material;
+    private Boolean piatraPretioasa;
 
+    public Boolean getPiatraPretioasa() {
+        return piatraPretioasa;
+    }
 
-	void setMaterial(String materialB)
-	{
-		material = materialB;
-	}
+    public String getMaterial() {
+        return material;
+    }
 
-	void setPP(Boolean piatra)
-	{
-		piatraPretioasa = piatra;
-	}
+    void setMaterial(String material) {
+        this.material = material;
+    }
+
+    void setPP(Boolean piatraPretioasa) {
+        this.piatraPretioasa = piatraPretioasa;
+    }
 
 }

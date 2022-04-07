@@ -1,14 +1,15 @@
 public class Tablou extends Produs {
 
-	private String numePictor;
-	private enum Culori {
-		ulei,
-		tempera,
-		acrilic,
-	}
+    private String numePictor;
 
-	void setPictor(String numele)
-	{
-		numePictor = numele;
-	}
+
+    public String getNumePictor() {
+        return numePictor;
+    }
+
+    public void setNumePictor(String numePictor) {
+        this.numePictor = numePictor;
+    }
+
+
 }
